@@ -1,0 +1,21 @@
+package headerTemplate
+
+// templ home(name string){
+// <html lang="en">
+// <head>
+//     <meta charset="UTF-8"/>
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+//     <title>Home Page</title>
+// </head>
+// <body>
+//     <h1>Hello Home Page from {name}</h1>
+// </body>
+// </html>
+// }
+
+
+templ headerTemplate(name string) {
+  <header data-testid="headerTemplate">
+    <h1>{ name }</h1>
+  </header>
+}
